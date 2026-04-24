@@ -183,13 +183,12 @@
       padding: 2rem
     }
 
-    /* 商品模块单独排版：一行1个 + 图片放大 */
-    .commodities-grid {
-      display: grid;
+    /* 商品单列 + 图片放大 */
+    #commodities .grid {
       grid-template-columns: 1fr !important;
       gap: 2.5rem !important;
     }
-    .commodities-grid .card-img {
+    #commodities .card-img {
       height: 360px !important;
     }
 
@@ -219,153 +218,153 @@
   <link rel="icon" href="./images/logo.png" type="image/png">
 </head>
 <body>
-  <header>
-    <div class="nav">
-      <div class="logo">
-        JPS GROUP TRADING
-        <img src="./images/logo.png" />
-      </div>
-      <div>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#leonais">Leonais Group</a>
-        <a href="#commodities">Commodities</a>
-        <a href="#advantages">Advantages</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </div>
-  </header>
 
-  <section class="hero" id="home">
+<header>
+  <div class="nav">
+    <div class="logo">JPS GROUP TRADING</div>
     <div>
-      <h1>JPS GROUP TRADING</h1>
-      <p>Your Trusted Global Partner in Physical Commodity Trading, Logistics and Supply Chain Solutions.</p>
-      <a href="#contact" class="btn">Contact Us</a>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#leonais">Leonaus Group</a>
+      <a href="#commodities">Commodities</a>
+      <a href="#advantages">Advantages</a>
+      <a href="#contact">Contact</a>
     </div>
-  </section>
+  </div>
+</header>
 
-  <section class="section" id="about">
-    <h2 class="title">About Us</h2>
-    <div style="max-width:900px;margin:0 auto;text-align:center;line-height:1.8;font-size:1.1rem">
-      <p>JPS Group Trading is a commodity trading firm <strong>based in Australia with a subsidiary in Singapore</strong>, specializing exclusively in <strong>physical commodity trading</strong> across key global markets.</p>
-      <br>
-      <p>We focus on the physical supply, distribution and logistics of energy, metals, agricultural products and bulk raw materials, leveraging our strategic locations and global network to connect producers and buyers worldwide.</p>
-      <br>
-      <p>With deep industry expertise, stable supply channels and rigorous risk control, we have built long-term strategic partnerships with global producers, logistics providers and industrial clients, establishing a leading reputation in physical commodity trading.</p>
-    </div>
-  </section>
+<section class="hero" id="home">
+  <div>
+    <h1>JPS GROUP TRADING</h1>
+    <p>Your Trusted Global Partner in Physical Commodity Trading, Logistics and Supply Chain Solutions.</p>
+    <a href="#contact" class="btn">Contact Us</a>
+  </div>
+</section>
 
-  <section class="section group" id="leonais">
-    <h2 class="title">LEONAUS GROUP</h2>
-    <div class="group-content">
-      <p style="font-weight:600; margin-bottom:1.5rem; text-align:center;">JPS GROUP TRADING PTY LTD and JPS GROUP TRADE PTE LTD are both trading subsidiaries operating under the LEONAUS Group umbrella.</p>
-      <div class="grid">
-        <div class="group-card">
-          <div class="group-img" style="background-image:url(./images/1.png)"></div>
-          <div class="group-text">
-            <h3>Transportation Infrastructure</h3>
-            <p>With over 18 years of extensive experience in the rail and transit sector, we have been deeply involved in several of Australia’s most iconic infrastructure projects, including the Sydney Metro (MTMS) and the Sydney CBD & South East Light Rail. We specialize in enhancing the safety, reliability, and operational efficiency of rail and light rail public transport systems.</p>
-          </div>
-        </div>
-        <div class="group-card">
-          <div class="group-img" style="background-image:url(./images/3.png)"></div>
-          <div class="group-text">
-            <h3>Real Estate Investment & Development</h3>
-            <p>In the real estate sector, we provide customized land development, luxury residences, and high-yield investment properties. By engaging in early-stage land development, we drive value appreciation through precise planning approvals and expert project management, while also undertaking comprehensive construction projects across the residential, commercial, and industrial sectors.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+<section class="section" id="about">
+  <h2 class="title">About Us</h2>
+  <div style="max-width:900px;margin:0 auto;text-align:center;line-height:1.8;font-size:1.1rem">
+    <p>JPS Group Trading is a commodity trading firm <strong>based in Australia with a subsidiary in Singapore</strong>, specializing exclusively in <strong>physical commodity trading</strong> across key global markets.</p>
+    <br>
+    <p>We focus on the physical supply, distribution and logistics of energy, metals, agricultural products and bulk raw materials, leveraging our strategic locations and global network to connect producers and buyers worldwide.</p>
+    <br>
+    <p>With deep industry expertise, stable supply channels and rigorous risk control, we have built long-term strategic partnerships with global producers, logistics providers and industrial clients, establishing a leading reputation in physical commodity trading.</p>
+  </div>
+</section>
 
-  <section class="section" id="commodities">
-    <h2 class="title">Core Commodities</h2>
-    <div class="grid commodities-grid">
-      <div class="card">
-        <div class="card-img" style="background-image:url(./images/2-1.png)"></div>
-        <div class="card-body">
-          <h3>Refined Oil Products</h3>
-          <p>We specialize in the international trade of various refined petroleum products, including but not limited to Gasoline, Diesel, Jet Fuel (Aviation Kerosene), and Fuel Oil. Through close partnerships with global refineries and end-users, we leverage deep market insights to provide our clients with highly competitive sourcing and sales opportunities.</p>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-img" style="background-image:url(./images/2-2.png)"></div>
-        <div class="card-body">
-          <h3>Crude Oil</h3>
-          <p>As a significant player in the global crude oil market, we supply a diverse range of crude grades from major producing regions worldwide. We possess a profound understanding of market complexities and volatility. Our mission is to serve as a reliable bridge between producers and consumers, offering flexible and strategic trading solutions.</p>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-img" style="background-image:url(./images/2-3.png)"></div>
-        <div class="card-body">
-          <h3>Liquefied Natural Gas (LNG)</h3>
-          <p>In response to the evolving global energy landscape, we have intensified our focus on the LNG sector. We excel in supply-demand analysis and logistics optimization, ensuring that our clients receive secure, reliable, and cost-effective LNG trading solutions.</p>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-img" style="background-image:url(./images/2-5.png)"></div>
-        <div class="card-body">
-          <h3>Copper</h3>
-          <p>As a critical industrial metal, copper remains in high demand across the power, construction, and electronics sectors. We focus on the international trade of Copper Concentrate and Copper Cathodes. Through expert market assessment and robust supply chain management, we ensure the delivery of high-quality copper products to meet our clients' production and investment needs.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section advantages" id="advantages">
-    <h2 class="title">Our Core Strengths</h2>
+<section class="section group" id="leonais">
+  <h2 class="title">LEONAUS GROUP</h2>
+  <div class="group-content">
+    <p style="font-weight:600; margin-bottom:1.5rem; text-align:center;">JPS GROUP TRADING PTY LTD and JPS GROUP TRADE PTE LTD are both trading subsidiaries operating under the LEONAUS Group umbrella.</p>
     <div class="grid">
-      <div class="card">
-        <div class="advantage-icon">🌐</div>
-        <h3>Global Supply Network</h3>
-        <p>Stable and high-quality upstream supply channels, covering major production areas worldwide.</p>
+      <div class="group-card">
+        <div class="group-img" style="background-image:url(./images/1.png)"></div>
+        <div class="group-text">
+          <h3>Transportation Infrastructure</h3>
+          <p>With over 18 years of extensive experience in the rail and transit sector, we have been deeply involved in several of Australia’s most iconic infrastructure projects, including the Sydney Metro (MTMS) and the Sydney CBD & South East Light Rail. We specialize in enhancing the safety, reliability, and operational efficiency of rail and light rail public transport systems.</p>
+        </div>
       </div>
-      <div class="card">
-        <div class="advantage-icon">⚡</div>
-        <h3>Physical Trade Expertise</h3>
-        <p>Professional team with extensive experience in physical commodity execution and logistics.</p>
-      </div>
-      <div class="card">
-        <div class="advantage-icon">🚢</div>
-        <h3>Global Logistics</h3>
-        <p>Long-term cooperation with international shipping and logistics companies for efficient delivery.</p>
-      </div>
-      <div class="card">
-        <div class="advantage-icon">🤝</div>
-        <h3>Strategic Partnerships</h3>
-        <p>Long-term stable cooperation with global top producers and industrial customers.</p>
-      </div>
-      <div class="card">
-        <div class="advantage-icon">📊</div>
-        <h3>Market Insights</h3>
-        <p>Real-time market analysis and professional price forecasting to support trade decisions.</p>
-      </div>
-      <div class="card">
-        <div class="advantage-icon">🛡️</div>
-        <h3>Risk Management & Compliance</h3>
-        <p>Strict international trade compliance, financial risk control and due diligence systems to ensure safe, transparent and sustainable transactions.</p>
+      <div class="group-card">
+        <div class="group-img" style="background-image:url(./images/3.png)"></div>
+        <div class="group-text">
+          <h3>Real Estate Investment & Development</h3>
+          <p>In the real estate sector, we provide customized land development, luxury residences, and high-yield investment properties. By engaging in early-stage land development, we drive value appreciation through precise planning approvals and expert project management, while also undertaking comprehensive construction projects across the residential, commercial, and industrial sectors.</p>
+        </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="contact" id="contact">
-    <h2>Get In Touch</h2>
-    <p>For business cooperation and trade inquiries</p>
-    <div class="contact-box">
-      <div class="contact-item">
-        <p><strong>Australia Headquarter:</strong> JPS GROUP TRADING PTY LTD, Level 2/4 Railway Parade, Burwood NSW 2134, Australia</p>
-      </div>
-      <div class="contact-item">
-        <p><strong>Singapore Subsidiary:</strong> JPSGROUP TRADE PTE LTD, #02-16 Jurong Town Hall, 9 Jurong Town Hall Road, Singapore 609431</p>
-      </div>
-      <div class="contact-item">
-        <p>Email: smt@jpsgrouptrading.com</p>
+<section class="section" id="commodities">
+  <h2 class="title">Core Commodities</h2>
+  <div class="grid">
+    <div class="card">
+      <div class="card-img" style="background-image:url(./images/2-1.png)"></div>
+      <div class="card-body">
+        <h3>Refined Oil Products</h3>
+        <p>We specialize in the international trade of various refined petroleum products, including but not limited to Gasoline, Diesel, Jet Fuel (Aviation Kerosene), and Fuel Oil. Through close partnerships with global refineries and end-users, we leverage deep market insights to provide our clients with highly competitive sourcing and sales opportunities.</p>
       </div>
     </div>
-  </section>
+    <div class="card">
+      <div class="card-img" style="background-image:url(./images/2-2.png)"></div>
+      <div class="card-body">
+        <h3>Crude Oil</h3>
+        <p>As a significant player in the global crude oil market, we supply a diverse range of crude grades from major producing regions worldwide. We possess a profound understanding of market complexities and volatility. Our mission is to serve as a reliable bridge between producers and consumers, offering flexible and strategic trading solutions.</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img" style="background-image:url(./images/2-3.png)"></div>
+      <div class="card-body">
+        <h3>Liquefied Natural Gas (LNG)</h3>
+        <p>In response to the evolving global energy landscape, we have intensified our focus on the LNG sector. We excel in supply-demand analysis and logistics optimization, ensuring that our clients receive secure, reliable, and cost-effective LNG trading solutions.</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img" style="background-image:url(./images/2-5.png)"></div>
+      <div class="card-body">
+        <h3>Copper</h3>
+        <p>As a critical industrial metal, copper remains in high demand across the power, construction, and electronics sectors. We focus on the international trade of Copper Concentrate and Copper Cathodes. Through expert market assessment and robust supply chain management, we ensure the delivery of high-quality copper products to meet our clients' production and investment needs.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <footer>
-    <p>&copy; 2026 JPS Group Trading. All Rights Reserved.</p>
-  </footer>
+<section class="section advantages" id="advantages">
+  <h2 class="title">Our Core Strengths</h2>
+  <div class="grid">
+    <div class="card">
+      <div class="advantage-icon">🌐</div>
+      <h3>Global Supply Network</h3>
+      <p>Stable and high-quality upstream supply channels, covering major production areas worldwide.</p>
+    </div>
+    <div class="card">
+      <div class="advantage-icon">⚡</div>
+      <h3>Physical Trade Expertise</h3>
+      <p>Professional team with extensive experience in physical commodity execution and logistics.</p>
+    </div>
+    <div class="card">
+      <div class="advantage-icon">🚢</div>
+      <h3>Global Logistics</h3>
+      <p>Long-term cooperation with international shipping and logistics companies for efficient delivery.</p>
+    </div>
+    <div class="card">
+      <div class="advantage-icon">🤝</div>
+      <h3>Strategic Partnerships</h3>
+      <p>Long-term stable cooperation with global top producers and industrial customers.</p>
+    </div>
+    <div class="card">
+      <div class="advantage-icon">📊</div>
+      <h3>Market Insights</h3>
+      <p>Real-time market analysis and professional price forecasting to support trade decisions.</p>
+    </div>
+    <div class="card">
+      <div class="advantage-icon">🛡️</div>
+      <h3>Risk Management & Compliance</h3>
+      <p>Strict international trade compliance, financial risk control and due diligence systems to ensure safe, transparent and sustainable transactions.</p>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h2>Get In Touch</h2>
+  <p>For business cooperation and trade inquiries</p>
+  <img src="./images/logo.png" style="width: 300px; margin-top: 20px;"/>
+  <div class="contact-box">
+    <div class="contact-item">
+      <p><strong>Australia Headquarter:</strong> JPS GROUP TRADING PTY LTD, Level 2/4 Railway Parade, Burwood NSW 2134, Australia</p>
+    </div>
+    <div class="contact-item">
+      <p><strong>Singapore Subsidiary:</strong> JPSGROUP TRADE PTE LTD, #02-16 Jurong Town Hall, 9 Jurong Town Hall Road, Singapore 609431</p>
+    </div>
+    <div class="contact-item">
+      <p>Email: smt@jpsgrouptrading.com</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2026 JPS Group Trading. All Rights Reserved.</p>
+</footer>
+
 </body>
 </html>
