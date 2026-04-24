@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,19 +11,16 @@
       box-sizing: border-box;
       font-family: 'Segoe UI', sans-serif
     }
-
     :root {
       --primary: #0a2342;
       --accent: #0077b6;
       --light: #f8f9fa;
       --dark: #212529
     }
-
     body {
       background: #f5f7fa;
       color: var(--dark)
     }
-
     header {
       background: var(--primary);
       position: sticky;
@@ -32,7 +28,6 @@
       z-index: 99;
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1)
     }
-
     .nav {
       max-width: 1200px;
       margin: 0 auto;
@@ -41,30 +36,25 @@
       justify-content: space-between;
       align-items: center
     }
-
     .logo {
       color: #fff;
       font-size: 1.8rem;
       font-weight: 700
     }
-
     .logo img {
       height: 40px;
       margin-left: 0.5rem;
       vertical-align: middle
     }
-
     .nav a {
       color: #fff;
       text-decoration: none;
       margin-left: 2rem;
       font-weight: 500
     }
-
     .nav a:hover {
       color: var(--accent)
     }
-
     .hero {
       height: 75vh;
       background: linear-gradient(rgba(10, 35, 66, .85), rgba(10, 35, 66, .85)), url(https://picsum.photos/seed/energy1/1920/1080) center/cover no-repeat;
@@ -75,19 +65,16 @@
       color: #fff;
       padding: 0 1rem
     }
-
     .hero h1 {
       font-size: 3rem;
       margin-bottom: 1rem
     }
-
     .hero p {
       font-size: 1.2rem;
       max-width: 700px;
       margin-bottom: 2rem;
       opacity: .9
     }
-
     .btn {
       padding: 1rem 2.5rem;
       background: var(--accent);
@@ -97,17 +84,14 @@
       font-weight: 600;
       transition: 0.3s
     }
-
     .btn:hover {
       background: #005f8d
     }
-
     .section {
       max-width: 1200px;
       margin: 0 auto;
       padding: 4rem 2rem
     }
-
     .title {
       text-align: center;
       font-size: 2.2rem;
@@ -115,7 +99,6 @@
       margin-bottom: 3rem;
       position: relative
     }
-
     .title::after {
       content: '';
       width: 70px;
@@ -126,13 +109,11 @@
       left: 50%;
       transform: translateX(-50%)
     }
-
     .grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       gap: 2rem
     }
-
     .card {
       background: #fff;
       border-radius: 8px;
@@ -140,59 +121,47 @@
       box-shadow: 0 4px 12px rgba(0, 0, 0, .05);
       transition: 0.3s
     }
-
     .card:hover {
       transform: translateY(-5px)
     }
-
     .card-img {
       height: 180px;
       background-size: cover;
       background-position: center
     }
-
     .card-body {
       padding: 2rem
     }
-
     .card h3 {
       color: var(--primary);
       margin-bottom: 1rem
     }
-
     .card p {
       line-height: 1.6;
       color: var(--dark)
     }
-
     .advantages {
       background: #fff
     }
-
     .advantage-icon {
       font-size: 2rem;
       color: var(--accent);
       margin-bottom: 1rem
     }
-
     .group {
       background: #fff;
       border-top: 1px solid #eee
     }
-
     .group-content {
       max-width: 1200px;
       margin: 0 auto;
       line-height: 1.8;
       font-size: 1.05rem
     }
-
     .group-content h3 {
       color: var(--primary);
       margin: 1.5rem 0 1rem
     }
-
-    /* 移除旧的左右布局样式 */
     .group-card {
       display: block;
       background: #fff;
@@ -201,29 +170,24 @@
       box-shadow: 0 4px 12px rgba(0, 0, 0, .05);
       transition: 0.3s;
     }
-
     .group-card:hover {
       transform: translateY(-5px)
     }
-
     .group-img {
       width: 100%;
       height: 180px;
       background-size: cover;
       background-position: center;
     }
-
     .group-text {
       padding: 2rem
     }
-
     .contact {
       background: var(--primary);
       color: #fff;
       text-align: center;
       padding: 4rem 2rem
     }
-
     .contact-box {
       display: flex;
       flex-direction: column;
@@ -231,11 +195,9 @@
       margin-top: 2rem;
       align-items: center
     }
-
     .contact-item p {
       font-size: 1.1rem
     }
-
     footer {
       background: #05162b;
       color: #fff;
@@ -245,17 +207,17 @@
   </style>
   <link rel="icon" href="./images/logo.png" type="image/png">
 </head>
-
 <body>
   <header>
     <div class="nav">
       <div class="logo">
         JPS GROUP TRADING
+        <img src="./images/logo.png" />
       </div>
       <div>
         <a href="#home">Home</a>
         <a href="#about">About</a>
-        <a href="#leonais">Leonaus Group</a>
+        <a href="#leonais">Leonais Group</a>
         <a href="#commodities">Commodities</a>
         <a href="#advantages">Advantages</a>
         <a href="#contact">Contact</a>
@@ -274,122 +236,68 @@
   <section class="section" id="about">
     <h2 class="title">About Us</h2>
     <div style="max-width:900px;margin:0 auto;text-align:center;line-height:1.8;font-size:1.1rem">
-      <p>JPS Group Trading is a commodity trading firm <strong>based in Australia with a subsidiary in
-          Singapore</strong>, specializing exclusively in <strong>physical commodity trading</strong> across key global
-        markets.</p>
+      <p>JPS Group Trading is a commodity trading firm <strong>based in Australia with a subsidiary in Singapore</strong>, specializing exclusively in <strong>physical commodity trading</strong> across key global markets.</p>
       <br>
-      <p>We focus on the physical supply, distribution and logistics of energy, metals, agricultural products and bulk
-        raw materials, leveraging our strategic locations and global network to connect producers and buyers worldwide.
-      </p>
+      <p>We focus on the physical supply, distribution and logistics of energy, metals, agricultural products and bulk raw materials, leveraging our strategic locations and global network to connect producers and buyers worldwide.</p>
       <br>
-      <p>With deep industry expertise, stable supply channels and rigorous risk control, we have built long-term
-        strategic partnerships with global producers, logistics providers and industrial clients, establishing a leading
-        reputation in physical commodity trading.</p>
+      <p>With deep industry expertise, stable supply channels and rigorous risk control, we have built long-term strategic partnerships with global producers, logistics providers and industrial clients, establishing a leading reputation in physical commodity trading.</p>
     </div>
   </section>
 
   <section class="section group" id="leonais">
     <h2 class="title">LEONAUS GROUP</h2>
     <div class="group-content">
-      <p style="font-weight:600; margin-bottom:1.5rem; text-align:center;">JPS GROUP TRADING PTY LTD and JPS GROUP TRADE
-        PTE LTD are both trading subsidiaries operating under the LEONAUS Group umbrella.</p>
-
+      <p style="font-weight:600; margin-bottom:1.5rem; text-align:center;">JPS GROUP TRADING PTY LTD and JPS GROUP TRADE PTE LTD are both trading subsidiaries operating under the LEONAUS Group umbrella.</p>
       <div class="grid">
         <div class="group-card">
           <div class="group-img" style="background-image:url(./images/1.png)"></div>
           <div class="group-text">
             <h3>Transportation Infrastructure</h3>
-            <p>With over 18 years of extensive experience in the rail and transit sector, we have been deeply involved
-              in several of Australia’s most iconic infrastructure projects, including the Sydney Metro (MTMS) and the
-              Sydney CBD & South East Light Rail. We specialize in enhancing the safety, reliability, and operational
-              efficiency of rail and light rail public transport systems.</p>
+            <p>With over 18 years of extensive experience in the rail and transit sector, we have been deeply involved in several of Australia’s most iconic infrastructure projects, including the Sydney Metro (MTMS) and the Sydney CBD & South East Light Rail. We specialize in enhancing the safety, reliability, and operational efficiency of rail and light rail public transport systems.</p>
           </div>
         </div>
-
-        <div class="group-card">
-          <div class="group-img" style="background-image:url(./images/2.png)"></div>
-          <div class="group-text">
-            <h3>Defense & Aerospace</h3>
-            <p>In the defense sector, we provide cutting-edge technological solutions to the Australian Defence Force
-              (ADF) and related agencies. Our focus is on maximizing the security, reliability, and information
-              integrity of defense equipment. We deliver comprehensive all-domain security management for major
-              Australian defense procurement projects, covering maritime systems, undersea technology, avionics, land
-              systems, and ICT security.</p>
-          </div>
-        </div>
-
         <div class="group-card">
           <div class="group-img" style="background-image:url(./images/3.png)"></div>
           <div class="group-text">
             <h3>Real Estate Investment & Development</h3>
-            <p>In the real estate sector, we provide customized land development, luxury residences, and high-yield
-              investment properties. By engaging in early-stage land development, we drive value appreciation through
-              precise planning approvals and expert project management, while also undertaking comprehensive
-              construction projects across the residential, commercial, and industrial sectors.</p>
+            <p>In the real estate sector, we provide customized land development, luxury residences, and high-yield investment properties. By engaging in early-stage land development, we drive value appreciation through precise planning approvals and expert project management, while also undertaking comprehensive construction projects across the residential, commercial, and industrial sectors.</p>
           </div>
         </div>
       </div>
-
     </div>
   </section>
 
   <section class="section" id="commodities">
     <h2 class="title">Core Commodities</h2>
     <div class="grid">
-
       <div class="card">
         <div class="card-img" style="background-image:url(./images/2-1.png)"></div>
         <div class="card-body">
           <h3>Refined Oil Products</h3>
-          <p>We specialize in the international trade of various refined petroleum products, including but not limited
-            to Gasoline, Diesel, Jet Fuel (Aviation Kerosene), and Fuel Oil. Through close partnerships with global
-            refineries and end-users, we leverage deep market insights to provide our clients with highly competitive
-            sourcing and sales opportunities.</p>
+          <p>We specialize in the international trade of various refined petroleum products, including but not limited to Gasoline, Diesel, Jet Fuel (Aviation Kerosene), and Fuel Oil. Through close partnerships with global refineries and end-users, we leverage deep market insights to provide our clients with highly competitive sourcing and sales opportunities.</p>
         </div>
       </div>
-
       <div class="card">
         <div class="card-img" style="background-image:url(./images/2-2.png)"></div>
         <div class="card-body">
           <h3>Crude Oil</h3>
-          <p>As a significant player in the global crude oil market, we supply a diverse range of crude grades from
-            major producing regions worldwide. We possess a profound understanding of market complexities and
-            volatility. Our mission is to serve as a reliable bridge between producers and consumers, offering flexible
-            and strategic trading solutions.</p>
+          <p>As a significant player in the global crude oil market, we supply a diverse range of crude grades from major producing regions worldwide. We possess a profound understanding of market complexities and volatility. Our mission is to serve as a reliable bridge between producers and consumers, offering flexible and strategic trading solutions.</p>
         </div>
       </div>
-
       <div class="card">
         <div class="card-img" style="background-image:url(./images/2-3.png)"></div>
         <div class="card-body">
           <h3>Liquefied Natural Gas (LNG)</h3>
-          <p>In response to the evolving global energy landscape, we have intensified our focus on the LNG sector. We
-            excel in supply-demand analysis and logistics optimization, ensuring that our clients receive secure,
-            reliable, and cost-effective LNG trading solutions.</p>
+          <p>In response to the evolving global energy landscape, we have intensified our focus on the LNG sector. We excel in supply-demand analysis and logistics optimization, ensuring that our clients receive secure, reliable, and cost-effective LNG trading solutions.</p>
         </div>
       </div>
-
-      <div class="card">
-        <div class="card-img" style="background-image:url(./images/2-4.png)"></div>
-        <div class="card-body">
-          <h3>Gold</h3>
-          <p>We provide trading services for gold products that meet stringent international standards, covering the
-            procurement and sale of physical gold. By maintaining extensive connections with world-renowned vaults,
-            producers, and investors, we offer secure, transparent, and price-advantaged trading opportunities.</p>
-        </div>
-      </div>
-
       <div class="card">
         <div class="card-img" style="background-image:url(./images/2-5.png)"></div>
         <div class="card-body">
           <h3>Copper</h3>
-          <p>As a critical industrial metal, copper remains in high demand across the power, construction, and
-            electronics sectors. We focus on the international trade of Copper Concentrate and Copper Cathodes. Through
-            expert market assessment and robust supply chain management, we ensure the delivery of high-quality copper
-            products to meet our clients' production and investment needs.</p>
+          <p>As a critical industrial metal, copper remains in high demand across the power, construction, and electronics sectors. We focus on the international trade of Copper Concentrate and Copper Cathodes. Through expert market assessment and robust supply chain management, we ensure the delivery of high-quality copper products to meet our clients' production and investment needs.</p>
         </div>
       </div>
-
     </div>
   </section>
 
@@ -424,8 +332,7 @@
       <div class="card">
         <div class="advantage-icon">🛡️</div>
         <h3>Risk Management & Compliance</h3>
-        <p>Strict international trade compliance, financial risk control and due diligence systems to ensure safe,
-          transparent and sustainable transactions.</p>
+        <p>Strict international trade compliance, financial risk control and due diligence systems to ensure safe, transparent and sustainable transactions.</p>
       </div>
     </div>
   </section>
@@ -433,15 +340,12 @@
   <section class="contact" id="contact">
     <h2>Get In Touch</h2>
     <p>For business cooperation and trade inquiries</p>
-    <img src="./images/logo.png" style="width: 300px; margin-top: 20px;"/>
     <div class="contact-box">
       <div class="contact-item">
-        <p><strong>Australia Headquarter:</strong> JPS GROUP TRADING PTY LTD, Level 2/4 Railway Parade, Burwood NSW
-          2134, Australia</p>
+        <p><strong>Australia Headquarter:</strong> JPS GROUP TRADING PTY LTD, Level 2/4 Railway Parade, Burwood NSW 2134, Australia</p>
       </div>
       <div class="contact-item">
-        <p><strong>Singapore Subsidiary:</strong> JPSGROUP TRADE PTE LTD, #02-16 Jurong Town Hall, 9 Jurong Town Hall
-          Road, Singapore 609431</p>
+        <p><strong>Singapore Subsidiary:</strong> JPSGROUP TRADE PTE LTD, #02-16 Jurong Town Hall, 9 Jurong Town Hall Road, Singapore 609431</p>
       </div>
       <div class="contact-item">
         <p>Email: smt@jpsgrouptrading.com</p>
@@ -453,5 +357,4 @@
     <p>&copy; 2026 JPS Group Trading. All Rights Reserved.</p>
   </footer>
 </body>
-
 </html>
