@@ -182,6 +182,17 @@
     .group-text {
       padding: 2rem
     }
+
+    /* 商品模块单独排版：一行1个 + 图片放大 */
+    .commodities-grid {
+      display: grid;
+      grid-template-columns: 1fr !important;
+      gap: 2.5rem !important;
+    }
+    .commodities-grid .card-img {
+      height: 360px !important;
+    }
+
     .contact {
       background: var(--primary);
       color: #fff;
@@ -269,7 +280,7 @@
 
   <section class="section" id="commodities">
     <h2 class="title">Core Commodities</h2>
-    <div class="grid">
+    <div class="grid commodities-grid">
       <div class="card">
         <div class="card-img" style="background-image:url(./images/2-1.png)"></div>
         <div class="card-body">
